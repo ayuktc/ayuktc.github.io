@@ -6,6 +6,13 @@ img {
     display: flex;
     flex-direction:column;
 }
+
+.motors {
+    text-align: center;
+    color: red;
+    margin-right: -133px
+}
+
 .gtr {
     color: white;
     font-family: cursive;
