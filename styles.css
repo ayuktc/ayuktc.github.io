@@ -5,5 +5,10 @@ img {
 body {
     text-align: center;
     background-color: white;
-    font-family: "Arial";
+    font-family: Helvetica;
+    font-weight: lighter;
+}
+iframe {
+    width:1470px;
+    height:550px;
 }
