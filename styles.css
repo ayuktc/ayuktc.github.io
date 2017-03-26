@@ -18,6 +18,7 @@ img {
 .name {
     text-align: center;
     margin-right: -133px;
+    margin-top: -118px;
     font-size: 45px;
 }
 
@@ -27,7 +28,7 @@ img {
     font-size: 65px;
    margin-top: -350px;
     margin-bottom: 145px;
-    margin-right: 1015px;
+    margin-right: 1020px;
     text-align: center;
 }
 .Ferrari {
@@ -47,7 +48,47 @@ img {
 body {
     text-align: center;
     background-color: white;
-    font-family: Helvetica;
+    font-family: Times;
     font-weight: lighter;
-   
+
+}
+
+body {
+  font: 600 14px/24px "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", Sans-Serif;
+  margin: 12px 0;
+}
+
+
+.card-container {
+
+  cursor: pointer;
+  height: 137px;
+  perspective: 600;
+  position: relative;
+  width: 160px;
+}
+.card {
+  height: 100%;
+  position: absolute;
+  transform-style: preserve-3d;
+  transition: all 1s ease-in-out;
+  width: 100%;
+}
+.card:hover {
+  transform: rotateY(180deg);
+}
+.card .side {
+  backface-visibility: hidden;
+  border-radius: 6px;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+}
+.card .back {
+  color: red;
+  line-height: 30px;
+  text-align: center;
+  font-size: 25px;
+  transform: rotateY(180deg);
 }
