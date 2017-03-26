@@ -1,5 +1,6 @@
 img {
     width: 100%;
+ 
     
 }
 .container {
@@ -10,9 +11,19 @@ img {
 .motors {
     text-align: center;
     color: red;
-    margin-right: -133px
+    margin-right: -138px;
+    font-size: 55px;
 }
 
+.name {
+    text-align: center;
+    margin-right: -133px;
+    font-size: 45px;
+}
+
+.twitter-follow-button {
+    margin-left: -92px;
+}
 .gtr {
     color: white;
     font-family: cursive;
@@ -36,4 +47,5 @@ body {
     background-color: white;
     font-family: Helvetica;
     font-weight: lighter;
+   
 }
