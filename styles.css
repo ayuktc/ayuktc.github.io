@@ -21,9 +21,6 @@ img {
     font-size: 45px;
 }
 
-.twitter-follow-button {
-    margin-left: -92px;
-}
 .gtr {
     color: white;
     font-family: cursive;
@@ -39,6 +36,11 @@ img {
     font-size: 90px;
     margin-top: -240px;
     margin-bottom: 74px;
+    
+}
+
+.follows {
+    font-family: cursive;
     
 }
 
